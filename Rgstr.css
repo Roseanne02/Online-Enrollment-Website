@@ -1,0 +1,158 @@
+body {
+	background-image: url("2.jpeg");
+    font-family:Arial;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bar-ul{
+    justify-content: flex-end;
+    flex: 1;
+    list-style: none;
+    display: flex;
+   
+}
+    .bar-li a {
+        margin-left:10px;
+        font-size:25px;
+        text-decoration: none;
+        color: white;
+        padding-right: 50px;
+        
+      }
+      .bar-li a:hover {
+       
+        border-radius:20px;
+        background-color: blue;
+        padding:10px;
+    }
+        
+.pageone{
+  
+    font-family:Arial ;
+    height: 630px;
+    width:1000px;
+    align-items: center;
+    text-align: justify;
+    margin: 1% auto 0;
+    border-radius: 30px;
+    float:center;
+    background:rgba(209, 209, 207, 0.2);
+	box-shadow: 0 8px 32px 0px  rgba(103, 103, 107, 0.37);
+	-webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+   
+}
+.formpage{
+   
+    font-family:Arial ;
+    height: 650px;
+    width:1000px;
+    
+    text-align: justify;
+    margin: 1% auto 0;
+    border-radius: 30px;
+ 
+    background:rgba(209, 209, 207, 0.2);
+	box-shadow: 0 8px 32 0px  rgba(103, 103, 107, 0.37);
+	-webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 2px solid white;
+   
+}
+.title img{
+    float:right;
+    height:350px;
+    width:350px;
+    padding-right: 50px;
+    padding-top: 70px;
+} 
+.title .txt{
+    font-size:35px;
+    font-family: Arial;
+    color:white;
+    float: left;
+    height:540px;
+    width:500px;
+    padding-left: 50px;
+    padding-top: 70px;
+    
+}
+.title .txt button{
+    background-color: blue;
+    width:240px;
+    height:40px;
+    font-size: 20px;
+    font-family: Arial;
+    color:white;
+    border-color: transparent;
+    border-radius: 15px;
+}
+.pageone h1 {
+    font-size:60px;
+    color: white;
+    text-align: center;
+    float: center;
+  
+    }
+    .pageone h3 {
+        font-size:50px;
+        color: white;
+        text-align: left;
+        float: center;
+        
+        }
+        .pageone p {
+            font-size:15px;
+            color:white;
+            text-align: justify;
+            font-family: Arial;
+            padding-right:30px;
+            padding-left: 30px;
+            
+        }
+        h2{
+            color: white;
+        }
+        .questions{
+            padding-left: 30px;
+            
+        }
+        .formpage  button{
+            background-color: blue;
+            width:170px;
+            height:40px;
+            font-size: 20px;
+            font-family: Arial;
+            color:white;
+            border-color: transparent;
+            border-radius: 10px;
+            float:center;
+            text-align: center;
+    }
+    h1{
+        color: white;
+        
+    }
+    .formpage  input{
+        background-color: rgb(241, 241, 247);
+        width:120px;
+        height:20px;
+        font-family: Arial;
+        color:black;
+        border-color: transparent;
+        float:center;
+        text-align: center;}
+
+        .formpage  select{
+            background-color: rgb(241, 241, 247);
+            width:124px;
+            height:26px;
+            font-family: Arial;
+            color:black;
+            border-color: transparent;
+            float:center;
+            text-align: center;}
+   
+
